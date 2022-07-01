@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8e29d1f8-2c60-47a8-9d17-729c0d0b3b2c": {
+      "ProjectGuid": "8e29d1f8-2c60-47a8-9d17-729c0d0b3b2c",
+      "DisplayName": "Mvc_Ogrenci",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

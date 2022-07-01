@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Db_Mvc_OgnreciModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Table_Ogrenci">
+    <Key>
+      <PropertyRef Name="OgrID" />
+    </Key>
+    <Property Name="OgrID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OgrAd" Type="varchar" MaxLength="50" />
+    <Property Name="OgrSoyad" Type="varchar" MaxLength="50" />
+    <Property Name="OgrMail" Type="varchar" MaxLength="350" />
+    <Property Name="OgrFotograf" Type="varchar" MaxLength="500" />
+    <Property Name="OgrAdres" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityContainer Name="Db_Mvc_OgnreciModelStoreContainer">
+    <EntitySet Name="Table_Ogrenci" EntityType="Self.Table_Ogrenci" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
